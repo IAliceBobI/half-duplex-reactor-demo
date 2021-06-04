@@ -1,0 +1,15 @@
+[package]
+name = "myapp"
+version = "0.1.0"
+authors = ["chenwei_767@qq.com"]
+edition = "2018"
+default-run = "myapp"
+
+[dependencies]
+my-error = { git = "https://github.com/chenwei767/RustUtils.git", rev = "f96e223f15a8e6680578f67c78ab58c995ee809f" }
+my-macro = { git = "https://github.com/chenwei767/RustUtils.git", rev = "f96e223f15a8e6680578f67c78ab58c995ee809f" }
+env_logger = "0.8.3"
+futures = "0.3.12"
+lazy_static = "1.4.0"
+libc = "0.2.86"
+log = "0.4.14"
